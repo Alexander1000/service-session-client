@@ -11,16 +11,20 @@
     "secure-http": false
   },
   "repositories": [
-    { "packagist": false }
+    { "packagist": false },
+    { "type": "composer", "url": "http://packages.beauty-recommend.ru" }
   ],
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.2",
-    "ext-json": "*"
+    "ext-json": "*",
+    "google/protobuf": "3.7.1",
+    "grpc/grpc": "1.19.0"
   },
   "autoload": {
     "psr-4": {
-      "Session\\": "src"
+      "Session\\": "src/Session",
+      "GPBMetadata\\": "src/GPBMetadata"
     }
   }
 }

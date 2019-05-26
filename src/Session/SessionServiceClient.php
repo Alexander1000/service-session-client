@@ -42,4 +42,17 @@ class SessionServiceClient extends \Grpc\BaseStub {
         $metadata, $options);
     }
 
+    /**
+     * @param \Session\CreateRequest $argument input argument
+     * @param array $metadata metadata
+     * @param array $options call options
+     */
+    public function Create(\Session\CreateRequest $argument,
+      $metadata = [], $options = []) {
+        return $this->_simpleRequest('/session.SessionService/Create',
+        $argument,
+        ['\Session\CreateResponse', 'decode'],
+        $metadata, $options);
+    }
+
 }
