@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7cde87e1f4c2f9bbd80f1b97162efcb3",
+    "content-hash": "eeca1c4037d42624d7251552e7fd4a0b",
     "packages": [
         {
             "name": "google/protobuf",
-            "version": "v3.7.1",
+            "version": "v3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "0657d28864692480c3d8506ba4fc90e8813deae5"
+                "reference": "5dffdd2c84112e6c91fd84f92e3df96649426881"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://packages.beauty-recommend.ru/dist/google/protobuf/google-protobuf-0657d28864692480c3d8506ba4fc90e8813deae5-zip-ea6f55.tar",
-                "reference": "0657d28864692480c3d8506ba4fc90e8813deae5",
-                "shasum": "c669675d9219ad6f2e5cc32759c6e5dcbebca973"
+                "url": "http://packages.beauty-recommend.ru/dist/google/protobuf/google-protobuf-5dffdd2c84112e6c91fd84f92e3df96649426881-zip-b6f2cb.tar",
+                "reference": "5dffdd2c84112e6c91fd84f92e3df96649426881",
+                "shasum": "b36ce8755b11a845479639ff7063981cfc1c3221"
             },
             "require": {
                 "php": ">=5.5.0"
@@ -45,24 +45,24 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v3.7.1",
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v3.10.0",
                 "issues": "https://github.com/protocolbuffers/protobuf-php/issues"
             },
-            "time": "2019-03-26T18:06:41+00:00"
+            "time": "2019-10-03T20:08:37+00:00"
         },
         {
             "name": "grpc/grpc",
-            "version": "1.19.0",
+            "version": "1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grpc/grpc-php.git",
-                "reference": "0f1ffdde45bfb9257c5d9eab81695d0f042bea22"
+                "reference": "88235e786ef9b55fcb049f00c5c5202f8086a299"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://packages.beauty-recommend.ru/dist/grpc/grpc/grpc-grpc-0f1ffdde45bfb9257c5d9eab81695d0f042bea22-zip-de2c7e.tar",
-                "reference": "0f1ffdde45bfb9257c5d9eab81695d0f042bea22",
-                "shasum": "0629df90744f82be95cbd22b3ecfbf8e523c8475"
+                "url": "http://packages.beauty-recommend.ru/dist/grpc/grpc/grpc-grpc-88235e786ef9b55fcb049f00c5c5202f8086a299-zip-c85939.tar",
+                "reference": "88235e786ef9b55fcb049f00c5c5202f8086a299",
+                "shasum": "5907d8744620f7d3d85b367f42ef82d2ab80831d"
             },
             "require": {
                 "php": ">=5.5.0"
@@ -89,9 +89,9 @@
                 "rpc"
             ],
             "support": {
-                "source": "https://github.com/grpc/grpc-php/tree/v1.19.0"
+                "source": "https://github.com/grpc/grpc-php/tree/v1.22.0"
             },
-            "time": "2019-02-27T04:47:56+00:00"
+            "time": "2019-07-03T19:57:39+00:00"
         }
     ],
     "packages-dev": [],
@@ -102,7 +102,8 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.2",
-        "ext-json": "*"
+        "ext-json": "*",
+        "ext-grpc": "*"
     },
     "platform-dev": []
 }
