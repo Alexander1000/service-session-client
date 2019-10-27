@@ -18,8 +18,10 @@
   "require": {
     "php": ">=7.2",
     "ext-json": "*",
-    "google/protobuf": "3.7.1",
-    "grpc/grpc": "1.19.0"
+    "ext-grpc": "*",
+
+    "google/protobuf": "^3.10",
+    "grpc/grpc": "^1.22"
   },
   "autoload": {
     "psr-4": {
