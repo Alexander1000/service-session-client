@@ -20,6 +20,7 @@ class SessionServiceClient extends \Grpc\BaseStub {
      * @param \Session\SaveRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
+     * @return \Grpc\UnaryCall
      */
     public function Save(\Session\SaveRequest $argument,
       $metadata = [], $options = []) {
@@ -33,6 +34,7 @@ class SessionServiceClient extends \Grpc\BaseStub {
      * @param \Session\GetRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
+     * @return \Grpc\UnaryCall
      */
     public function Get(\Session\GetRequest $argument,
       $metadata = [], $options = []) {
@@ -46,6 +48,7 @@ class SessionServiceClient extends \Grpc\BaseStub {
      * @param \Session\CreateRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
+     * @return \Grpc\UnaryCall
      */
     public function Create(\Session\CreateRequest $argument,
       $metadata = [], $options = []) {

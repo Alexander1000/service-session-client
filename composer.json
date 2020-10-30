@@ -1,5 +1,5 @@
 {
-  "name": "Alexander1000/service-session-client",
+  "name": "alexander1000/service-session-client",
   "description": "service-session-client",
   "authors": [
     {
@@ -12,16 +12,16 @@
   },
   "repositories": [
     { "packagist": false },
-    { "type": "composer", "url": "http://packages.beauty-recommend.ru" }
+    { "type": "composer", "url": "http://packages.dankovtsev.pro" }
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.2",
+    "php": ">=8.0",
     "ext-json": "*",
     "ext-grpc": "*",
 
     "google/protobuf": "^3.10",
-    "grpc/grpc": "^1.22"
+    "grpc/grpc": "^1.30"
   },
   "autoload": {
     "psr-4": {

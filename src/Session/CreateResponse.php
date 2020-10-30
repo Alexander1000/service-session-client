@@ -16,7 +16,7 @@ class CreateResponse extends \Google\Protobuf\Internal\Message
     /**
      * Generated from protobuf field <code>string sessid = 1;</code>
      */
-    private $sessid = '';
+    protected $sessid = '';
 
     /**
      * Constructor.

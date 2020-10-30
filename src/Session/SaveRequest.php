@@ -16,19 +16,19 @@ class SaveRequest extends \Google\Protobuf\Internal\Message
     /**
      * Generated from protobuf field <code>string sessid = 1;</code>
      */
-    private $sessid = '';
+    protected $sessid = '';
     /**
      * Generated from protobuf field <code>int64 userId = 2;</code>
      */
-    private $userId = 0;
+    protected $userId = 0;
     /**
      * Generated from protobuf field <code>string access_token = 3;</code>
      */
-    private $access_token = '';
+    protected $access_token = '';
     /**
      * Generated from protobuf field <code>string refresh_token = 4;</code>
      */
-    private $refresh_token = '';
+    protected $refresh_token = '';
 
     /**
      * Constructor.
